@@ -1,0 +1,14 @@
+<h1>{{title}}</h1>
+<hr>
+<nav>
+    <a [routerLinkActive]="['activado']" href="/home">Home</a>
+    -
+    <a  [routerLinkActive]="['activado']" href="/contacto">Contacto</a>
+    -
+    <a [routerLinkActive]="['activado']" href="/fruta">Fruta</a>
+    -
+    <a [routerLinkActive]="['activado']" href="/empleado">Empleado</a>
+    -
+    <a [routerLinkActive]="['activado']" href="/coches">coches</a>
+</nav>
+<router-outlet></router-outlet>
